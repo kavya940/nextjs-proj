@@ -1,0 +1,40 @@
+.product-list-container {
+    flex: 3;
+    margin-left: 20px;
+  }
+
+  .product-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .sort-dropdown select {
+    padding: 5px 10px;
+    font-size: 20px;
+  }
+  .product-grid {
+    display: grid;
+    margin: auto 30px;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 300px));
+    gap: 20px;
+    justify-content: center; /* Center the product grid */
+  }
+  .product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+  }
+  .product-card h3 {
+    font-size: 1.1rem;
+    margin: 10px 10px;
+  }
+  .product-card p {
+    font-size: 1rem;
+    color: #333;
+  }
+  .product-card:hover {
+    border: 2px solid black;
+  }
